@@ -247,7 +247,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 0; 
     height: 100%;
     background: var(--main-color);
     z-index: -1;
@@ -704,7 +704,7 @@ span{
 } 
 
 /* animation relod and scroll */
-/* .animate{
+.animate{
     position: absolute;
     top: 0;
     right: 0;
@@ -750,7 +750,7 @@ section:nth-child(odd) .animate.scroll,
     width: 0;
 }
 
-breakpoints
+/*breakpoints*/
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
